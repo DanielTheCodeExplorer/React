@@ -1,13 +1,15 @@
-import './App.css'
-import Map from './components/Map.jsx'
+  import './App.css'
+  import Footer from'./components/Footer.jsx'
+  import Map from './components/Map.jsx'
 
 export default function App() {
   return (
-    <>
-    <div className='w-screen h-screen p-4'>
-        <Map />
+   <div className="flex flex-col h-screen overflow-hidden">
+      <Map className="flex-[5]" />
+      <Footer className="flex-[1]" />
     </div>
-    </>
+
   );
 }
+
 

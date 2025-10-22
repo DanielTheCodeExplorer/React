@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* Override Leaflet's default grey */
+.leaflet-container { 
+  background: #aad3df!important;
+}
